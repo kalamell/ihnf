@@ -6,6 +6,15 @@
   font-style: normal;
 }
 
+
+@font-face {
+  font-family: 'RobotoCondensed-Bold';
+  src: url('../fonts/RobotoCondensed-Bold.eot?#iefix') format('embedded-opentype'),  url('../fonts/RobotoCondensed-Bold.woff') format('woff'), url('../fonts/RobotoCondensed-Bold.ttf')  format('truetype'), url('../fonts/RobotoCondensed-Bold.svg#RobotoCondensed-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 .container-fluid { padding-left: 0px; padding-right: 0px; }
 .row {
 	margin-left: 0px;
@@ -42,6 +51,10 @@ ul.navbar-nav.navbar-center {
 	padding: 1.4em 2.2em;
     /* padding-left: 90px; */
     font-size: 1.8em;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	color: #bb9445;
 }
 
 a.icon-register {
@@ -155,7 +168,7 @@ a.navbar-brand img {
 
 
 	.navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav.navbar-right>li>a  {
-		padding: 1.5em 0.7em;
+		padding: 1.5em 1.4em;
 		font-size: 1.6em;
 	}
 
