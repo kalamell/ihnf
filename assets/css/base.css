@@ -733,13 +733,58 @@ form label {
 #aboutus-event { margin-top: 210px; }
 
 #relation {
-	background-color: #fefefe;
+	background-color: #231f20;
+
 
 }
 
+#relation .section1 {
+	background-image: url('../img/bg-about2.png');
+	background-position: right center;
+	background-repeat: repeat-y;
+	background-size: cover;
+	padding-top: 400px;
+	height: 900px;
+}
+
+#relation .section1 h2 {
+	font-size: 3em;
+	text-align: center;
+
+}
 
 #relation-event {
-	background-color: #231f20;
+	padding: 50px 0px 0px 0px;
+}
+
+#relation-event h2{
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+#relation-event p { margin-bottom: 80px; }
+
+#list-contact {
+	padding-top: 50px;
+}
+#list-contact h2 {
+	font-size: 3em;
+}
+
+#list-user { margin-top: 20px; }
+
+#list-user h3 {
+	font-family: 'DBHelvethaicaX-77BdCond';
+	font-size: 2.5em;
+	color: #000;
+	background: url('../img/sqr.png') center left no-repeat;
+	padding-left: 40px;
+	margin-bottom: 50px;
+}
+
+#list-user p {
+	margin-top: 30px;
+	margin-bottom: 50px;
 }
 
 @media only screen and (max-width: 1000px) and (min-width: 768px){
